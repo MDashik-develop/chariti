@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header class="bg-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <img alt="As-Sunnah Foundation Logo" class="mr-4" height="50" src="https://placehold.co/100x70"
+                    width="100" />
+                <div>
+                    <h1 class="text-xl font-bold">
+                        আস-সুন্নাহ ফাউন্ডেশন
+                    </h1>
+                    <p class="text-green-600">
+                        উন্নত জীবন, সবার সাথে
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a class="text-blue-600" href="#">
+                    <i class="fab fa-facebook">
+                    </i>
+                </a>
+                <a class="text-red-600" href="#">
+                    <i class="fab fa-youtube">
+                    </i>
+                </a>
+                <a class="text-green-600" href="#">
+                    <i class="fas fa-envelope">
+                    </i>
+                </a>
+                <a class="text-green-600" href="#">
+                    <i class="fas fa-phone">
+                    </i>
+                </a>
+                <a class="text-green-600" href="#">
+                    EN
+                </a>
+                <a class="text-green-600" href="#">
+                    বাংলা
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav class="bg-green-800">
+        <div class="container mx-auto">
+            <ul class="flex space-x-4 text-white py-2">
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        হোম
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        আমাদের সম্পর্কে
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        আমাদের কার্যক্রম
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        চলমান প্রকল্প
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        আক্বীদা ও দাওয়াহ
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        গ্যালারী
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        ভিডিও
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        বেহেস্তের পথিক
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        সংবাদ
+                    </a>
+                </li>
+                <li>
+                    <a class="hover:text-gray-300" href="#">
+                        যোগাযোগ
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto py-4">
+        <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+            <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab"
+                data-tabs-toggle="#default-tab-content" role="tablist">
+                <li class="me-2" role="presentation">
+                    <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-tab"
+                        data-tabs-target="#profile" type="button" role="tab" aria-controls="profile"
+                        aria-selected="false">পরিচিতি</button>
+                </li>
+                <li class="me-2" role="presentation">
+                    <button
+                        class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                        id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab"
+                        aria-controls="dashboard" aria-selected="false">নীতি ও আদর্শ</button>
+                </li>
+                <li class="me-2" role="presentation">
+                    <button
+                        class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                        id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings"
+                        aria-selected="false">লক্ষ্য ও উদ্দেশ্য</button>
+                </li>
+                <li role="presentation">
+                    <button
+                        class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                        id="contacts-tab" data-tabs-target="#contacts" type="button" role="tab" aria-controls="contacts"
+                        aria-selected="false">কার্যক্রম</button>
+                </li>
+            </ul>
+        </div>
+        <div id="default-tab-content">
+            <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel"
+                aria-labelledby="profile-tab">
+                <h2>আস-সুন্নাহ ফাউন্ডেশন</h2>
+                <p>আস-সুন্নাহ ফাউন্ডেশন একটি অরাজনৈতিক, অলাভজনক শিক্ষা, দাওয়াহ ও পূর্ণত মানবকল্যাণে নিবেদিত সেবামূলক
+                    সরকার-নিবন্ধিত প্রতিষ্ঠান। নিবন্ধন নম্বর: এস-১৩১১১/২০১৯। ২০১৭ সালে শায়খ আহমাদুল্লাহ এটি প্রতিষ্ঠা
+                    করেন। তিনি প্রতিষ্ঠানটির চেয়ারম্যান হিসেবে প্রত্যক্ষভাবে পরিচালনা করছেন। এই প্রতিষ্ঠান মানবতার
+                    শিক্ষক, মানুষের মুক্তি ও শান্তির দূত, মানবসেবার আদর্শ, মহানবী মুহাম্মদ সা.-এর পদাঙ্ক অনুসরণ করে
+                    আর্তমানবতার সেবা, সমাজ-সংস্কার, মহোত্তম নীতিচেতনার সঞ্চার, পরিচ্ছন্ন মানসিকতা গঠনে নিরন্তর নানা
+                    কর্মসূচি পালন, সর্বোপরি একটি আদর্শ কল্যাণসমাজ বিনির্মাণে যথাশক্তি প্রচেষ্টা চালিয়ে যাচ্ছে। কুরআন ও
+                    সুন্নাহ ভিত্তিক জীবন ও সমাজ গঠন করা এবং বিশুদ্ধ ইলমের প্রচার ও বিস্তার আস-সুন্নাহ ফাউন্ডেশনের অন্যতম
+                    লক্ষ্য। সালফে সালিহীনের পথ ধরে কুরআন ও সুন্নাহ ভিত্তিক মধ্যমপন্থা অবলম্বন করা আমাদের নীতি।</p>
+            </div>
+            <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel"
+                aria-labelledby="dashboard-tab">
+                <h2>নীতি ও আদর্শ</h2>
+                <div>
+                    <ol class="relative border-s border-gray-200 dark:border-gray-700">
+                        <li class="mb-10 ms-4">
+                            <div
+                                class="absolute w-3 h-3 bg-green-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">পবিত্র কুরআন ও আল্লাহর রাসুল মুহাম্মাদ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর সুন্নাহ তথা কর্মনীতিই আস-সুন্নাহ ফাউন্ডেশনের মূল আদর্শ।</p>
+                        </li>
+                        <li class="mb-10 ms-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <p class="text-base font-normal text-gray-500 dark:text-gray-400">কুরআন-সুন্নাহকে সালাফে সালিহীনের ব্যাখ্যার আলোকে গ্রহণ করা।</p>
+                        </li>
+                        <li class="ms-4">
+                            <div
+                                class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                            </div>
+                            <p class="text-base font-normal text-gray-500 dark:text-gray-400">আহলুস-সুন্নাহ ওয়াল-জামা‘আহর আক্বীদা ও দৃষ্টিভঙ্গি লালন করা।</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="settings" role="tabpanel"
+                aria-labelledby="settings-tab">
+                <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                        class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>.
+                    Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                    classes to control the content visibility and styling.</p>
+            </div>
+            <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="contacts" role="tabpanel"
+                aria-labelledby="contacts-tab">
+                <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                        class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>.
+                    Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                    classes to control the content visibility and styling.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="w-full border-t border-gray-300 py-2">
+        <div class="text-center text-sm text-gray-600">
+            <span>স্বত্ব © 2025 <span class="text-green-600">আদ-সুরাহ ফাউন্ডেশন</span> - সর্ব স্বত্ব সংরক্ষিত। কার্যাবলি
+                পরিচালনায় <span class="text-green-600">কোয়ান্টিক টেকনোলজিস</span>।</span>
+            <br>
+            <a href="#" class="text-green-600">ব্যবহারের শর্তাবলী</a> | <a href="#" class="text-green-600">গোপনীয়তা
+                নীতি</a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
